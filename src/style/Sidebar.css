@@ -1,0 +1,95 @@
+
+
+.sidebar-container {
+  width: 12rem;
+  background-color: white;
+  height: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #f3f4f6;
+}
+
+.sidebar-header {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.sidebar-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.sidebar-title-highlight {
+  color: #14b8a6;
+}
+
+.sidebar-title-normal {
+  color: #1f2937;
+}
+
+.sidebar-sections {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sidebar-section {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.sidebar-section-title {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #9ca3af;
+  font-weight: 500;
+  padding-left: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  text-decoration: none;
+}
+
+.sidebar-link-default {
+  color: #374151;
+}
+
+.sidebar-link-default:hover {
+  background-color: #f9fafb;
+}
+
+.sidebar-link-active {
+  color: #2563eb;
+  background-color: #eff6ff;
+}
+
+.sidebar-icon-wrapper {
+  margin-right: 0.75rem;
+}
+
+.sidebar-icon {
+  color: #6b7280;
+  transition: color 0.2s;
+}
+
+.sidebar-link:hover .sidebar-icon {
+  color: #3b82f6;
+}

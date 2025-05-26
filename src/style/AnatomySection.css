@@ -1,0 +1,104 @@
+.anatomy-box {
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  position: relative;
+}
+
+.expand-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.expand-button {
+  color: #9ca3af;
+  transition: color 0.2s;
+}
+
+.expand-button:hover {
+  color: #4b5563;
+}
+
+.anatomy-wrapper {
+  position: relative;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  position: relative;
+}
+
+.anatomy-image {
+  height: 100%;
+  object-fit: contain;
+}
+
+.tag-wrapper {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+}
+
+.heart-tag {
+  background-color: #2563eb;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.heart-icon {
+  margin-right: 4px;
+}
+
+.leg-tag {
+  background-color: #14b8a6;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.slider-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.slider-track {
+  width: 75%;
+  height: 4px;
+  background-color: #e5e7eb;
+  border-radius: 9999px;
+}
+
+.slider-fill {
+  width: 33%;
+  height: 100%;
+  background-color: #14b8a6;
+  border-radius: 9999px;
+  position: relative;
+}
+
+.slider-thumb {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border: 2px solid #14b8a6;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+}

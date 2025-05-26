@@ -1,0 +1,142 @@
+.calendar-wrapper {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.calendar-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.calendar-month-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937; 
+}
+
+.calendar-navigation button {
+  background: none;
+  border: none;
+  color: #9ca3af; 
+  cursor: pointer;
+  margin-left: 8px;
+  transition: color 0.3s;
+}
+
+.calendar-navigation button:hover {
+  color: #4b5563; 
+}
+
+.calendar-days-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.calendar-day-name {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6b7280; 
+  text-align: center;
+}
+
+.calendar-date-box {
+  background-color: #f9fafb; 
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.calendar-date-box:hover {
+  background-color: #e5e7eb; 
+}
+
+.calendar-active-date {
+  background-color: #10b981; 
+  color: white;
+}
+
+.calendar-date-number {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.calendar-time-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.time-slot {
+  background-color: #f3f4f6;
+  font-size: 12px;
+  padding: 4px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.time-highlight {
+  background-color: #10b981; 
+  color: white;
+}
+
+.time-secondary {
+  background-color: #d1fae5; 
+  color: #047857; 
+}
+
+.time-dash {
+  color: #9ca3af;
+}
+
+.calendar-appointments-section {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.appointment-box {
+  flex: 1;
+  border-radius: 12px;
+  padding: 16px;
+  color: white;
+  min-width: 160px;
+}
+
+.bg-blue {
+  background-color: #3b82f6;
+}
+
+.bg-teal {
+  background-color: #14b8a6;
+}
+
+.appointment-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.appointment-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.appointment-time-label {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.appointment-doctor-label {
+  font-size: 12px;
+  color: #f0fdfa;
+}
